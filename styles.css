@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+:root {
+  --background: #000000;
+  --primary-text: #FFFFFF;
+  --secondary-text: #666666;
+  --btn: #DF994E;
+}
+body {
+  font-family: "Kulim Park", sans-serif;
+}
+header {
+  height: 100vh;
+  background-image: url(./assets/background.png);
+  background-size: cover;
+  padding: 5vh;
+}
+a {
+  color: var(--primary-text);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--btn);
+}
+ul {
+  list-style: none;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+.btn {
+  background-color: orange;
+  width: 30%;
+  text-align: center;
+  padding: 2vh;
+  color: var(--background);
+}
+.btn a {
+  color: var(--background);
+  cursor: pointer;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-links {
+  display: flex;
+  width: 25vw;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.branding {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+.branding-title {
+  font-size: 5.5rem;
+  text-align: center;
+}
+.branding-subtitle{
+  color: var(--btn);
+  font-size: 1.5rem;
+  margin-top: 2vh;
+}
+.container {
+  padding: 10vh 6vh;
+  background-color: var(--background);
+  color: white;
+}
+.company-profile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.company-profile-box-img{
+  width: 60%;
+}
+.company-profile-box-img-image {
+  width: 100%;
+}
+.company-profile-box-texts{
+  width: 35%;
+}
+.company-profile-box-texts-subtitle {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin: 4vh 0;
+  color: var(--secondary-text);
+}
+.services {
+  margin-top: 10vh;
+}
+.services-title {
+  text-align: center;
+}
+.services-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+  align-items: center;
+  
+}
+.services-content-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5vh;
+}
+.services-content-box-number {
+  color: var(--btn);
+}
+.services-content-box-texts {
+  width: 75%;
+}
+.services-content-box-texts-subtitle {
+  color: var(--secondary-text);
+  font-size: 1.4rem;
+}
+.services-content-image {
+  width: 35%;
+}
+.services-content-image img {
+  width: 100%;
+}
+.services-content-box:nth-child(1) {
+  gap: 1vw;
+}
+.services-content-btn {
+  margin: 0 auto;
+  padding: 3vh;
+  font-size: 1.5rem;
+  margin-top: 3vh;
+}
+.customers {
+  padding: 10vh 6vh;
+  text-align: center;
+}
+.customers-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+.customers-list-item {
+  background-color: black;
+  color: white;
+}
+.customers-list-item-texts{
+  padding: 2vh;
+}
+.customers-subtitle {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.comments {
+  text-align: center;
+  padding: 5vh 6vh;
+}
+.comments-title {
+  font-weight: 400;
+}
+.comments-subtitle {
+  color: var(--secondary-text);
+  font-size: 1.5rem;
+  margin-top: 2vh;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact-box-item-subtitle {
+  font-size: 1.8rem;
+  color: var(--secondary-text);
+}
+.contact-box-img {
+  width: 60%;
+}
+.contact-box-img img {
+  width: 100%;
+}
+.contact-box-item {
+  margin-bottom: 5vh;
+}
+footer {
+  text-align: center;
+}
+.footer-subtitle {
+  margin-top: 2vh;
+}
